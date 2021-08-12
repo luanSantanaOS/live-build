@@ -9,7 +9,7 @@ LB_MIRROR_CHROOT_SECURITY="http://ftp.br.debian.org/debian-security/"
 
 # fase 1 - setando as variaveis
 
-SOURCE="$(pwd)/luanos"
+SOURCE="$(pwd)"
 DEST="$(pwd)/luanSantanaOS"
 
 # fase 2 - criar as pastas mac do mac
