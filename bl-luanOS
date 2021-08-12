@@ -19,7 +19,12 @@ cd $DEST
 
 # fase 3 - configurar os lek lá
 
-lb config --bootappend-live "boot=live splash components username=luanete user-fullname=luanete" --binary-images iso-hybrid --mode debian --architectures amd64 --linux-flavours amd64 --distribution buster --archive-areas "main contrib non-free" --updates true --security true --cache true --apt-recommends true --debian-installer live --debian-installer-gui true 
+lb config --bootappend-live "boot=live splash components username=luanete user-fullname=luanete" \
+	--binary-images iso-hybrid --mode debian --architectures amd64 --linux-flavours amd64 \
+	--distribution buster --archive-areas "main contrib non-free" --updates true --security true \
+	--cache true --apt-recommends true --debian-installer live --debian-installer-gui true \
+	--iso-volume luanSantanaOS --iso-aplication luanSantanaOS --iso-preparer adotDEV \
+	--iso-publisher adotDEV-https://github.com/luanSantanaOS/luanSantanaOS
 
 # fase 4 - configurando os pacote
 
