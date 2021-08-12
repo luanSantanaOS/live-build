@@ -1,0 +1,27 @@
+---
+componentName:   luansantanaos
+welcomeStyleCalamares: true
+
+strings:
+    productName:         luanSantanaOS
+    shortProductName:    luanSantanaOS
+    version:             1 (Tô de cara)
+    shortVersion:        1
+    versionedName:       luanOS
+    shortVersionedName:  luanOS
+    bootloaderEntryName: luanSantanaOS
+    productUrl:          
+    supportUrl:          
+    releaseNotesUrl:     
+
+images:
+    productLogo:         "luan-logo.png"
+    productIcon:         "luan-logo.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#2c3133"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#4d7079"

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install luanSantanaOS
+GenericName=Calamares Installer
+Exec=install-debian
+Comment=Calamares — Installer for luanSantanaOS
+Keywords=calamares;system;install;debian;installer
+Icon=/usr/share/icons/default/luan-logo.png
+Terminal=false
+Categories=Qt;System;
+StartupWMClass=calamares
+StartupNotify=True

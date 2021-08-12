@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=tema default do luanSantanaOS
+Description=um tema que gira uma linha fodinha entorno da logo do luanSantanaOS
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/luanOS-splash
+ScriptFile=/usr/share/plymouth/themes/luanOS-splash/luanOS-splash.script
