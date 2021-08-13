@@ -2,11 +2,6 @@
 
 # baseado no bldeznix109 (https://sourceforge.net/projects/eznixos/)
 
-# se tu quiser usar o mirror br só desmarca esses bgl aqui em baixo
-
-LB_MIRROR_BOOTSTRAP="http://debian.pop-sc.rnp.br/debian/"
-LB_MIRROR_CHROOT_SECURITY="http://ftp.br.debian.org/debian-security/"
-
 # fase 1 - setando as variaveis
 
 SOURCE="$(pwd)"
@@ -23,8 +18,10 @@ lb config --bootappend-live "boot=live splash components username=luanete user-f
 	--binary-images iso-hybrid --mode debian --architectures amd64 --linux-flavours amd64 \
 	--distribution buster --archive-areas "main contrib non-free" --updates true --security true \
 	--cache true --apt-recommends true --debian-installer live --debian-installer-gui true \
-	--iso-volume luanSantanaOS --iso-aplication luanSantanaOS --iso-preparer adotDEV \
-	--iso-publisher adotDEV-https://github.com/luanSantanaOS/luanSantanaOS
+	--iso-volume luanSantanaOS --iso-application luanSantanaOS --iso-preparer adotDEV \
+	--iso-publisher adotDEV-https://github.com/luanSantanaOS/luanSantanaOS \
+	--mirror-chroot-security http://ftp.br.debian.org/debian-security/ \
+	--mirror-bootstrap http://debian.pop-sc.rnp.br/debian/
 
 # fase 4 - configurando os pacote
 
@@ -69,3 +66,4 @@ cp -r $SOURCE/grub/* $DEST/config/includes.chroot/
 # fase 6 - rock lee vs gaara (linkin park)
 
 lb build
+
