@@ -6,8 +6,8 @@ $ chmod +x bl-luanOS
 $ sudo ./bl-luanOS
 ```
 
-## Agradecimentos
+## Recursos úteis para customização.
 
- - https://sourceforge.net/projects/eznixos/
  - https://www.youtube.com/watch?v=idXrP2inpGs
-
+ - https://sourceforge.net/projects/eznixos/
+ - https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html
